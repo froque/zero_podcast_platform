@@ -1,0 +1,26 @@
+
+
+
+ * Com base no horario de submissao e flag "next emition", disponibilizer o podcast imediatamente.
+
+
+
+
+
+Falta testar as varias combinacoes. 
+
+
+Dopo, é necessario fazer os scripts a correr nos cron
+
+
+Esquema geral
+
+ radiologo           cron
+      |               |
+        web ----> buffer ----> enddir
+                      |
+                      vamos aqui
+
+
+
+
